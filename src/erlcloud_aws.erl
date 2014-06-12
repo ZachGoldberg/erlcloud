@@ -10,7 +10,7 @@
          sign_v4/5]).
 
 -include("erlcloud.hrl").
--include_lib("erlcloud/include/erlcloud_aws.hrl").
+-include_lib("erlcloud_aws.hrl").
 
 -record(metadata_credentials, 
         {access_key_id :: string(),
